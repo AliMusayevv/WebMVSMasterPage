@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Home</title>
+    <link href="~/web/css/style.css" rel="stylesheet" />
+    <link href="~/web/css/swipebox.css" rel="stylesheet" />
+    <link href="~/web/css/normalize.css" rel="stylesheet" />
+    <link href="~/web/css/flexslider.css" rel="stylesheet" />
+    <link href="~/web/css/chocolat.css" rel="stylesheet" />
+    <link href="~/web/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("_Header")
+    <div>
+        @RenderBody() 
+    </div>
+    @Html.Partial("_Footer")
+</body>
+</html>
